@@ -1,5 +1,5 @@
 # 🌍 Ca vient d'ou?
-**CA VIENT D'OU** est un jeu web interactif et éducatif dans lequel les joueurs doivent deviner à quel pays correspond un stéréotype culturel.
+**CA VIENT D'OU?** est un jeu web interactif et éducatif dans lequel les joueurs doivent deviner à quel pays correspond un stéréotype culturel.
 Le quiz s'appuie sur des clichés populaires pour tester, avec humour et curiosité, notre connaissance des cultures du monde.
 
 ## 🎯 Concept du jeu
