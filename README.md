@@ -1,20 +1,48 @@
-# 🌍 Ca vient d'ou?
-**CA VIENT D'OU?** est un jeu web interactif et éducatif dans lequel les joueurs doivent deviner à quel pays correspond un stéréotype culturel.
-Le quiz s'appuie sur des clichés populaires pour tester, avec humour et curiosité, notre connaissance des cultures du monde.
+# 🌍 Ca vient d'ou? -Projet QCM Culture & Stéréotypes 
 
-## 🎯 Concept du jeu
-- Une Image représentant un **stéréotype culturel** (clichés, nourriture, vêtements, objets, traditions…) s'affiche.
-- Le joueur doit de quel **pays** il s'agit.
-- À chaque bonne réponse, le joueur gagne des points.
-- À la fin du quiz, un **score final** est affiché, avec une option pour recommencer.
+## 🧾 Présentation
 
-## 🛠️ Technologies utilisées
-**Visual Studio Code** : Développement du projet    
-**HTML/CSS** : Structure et design des pages
-**SQL** : Base de données des clichés et des pays
-**PHP** : Traitement serveur, vérification des réponses
-**JAVASCRIPT** : Interaction utilisateur et logique du quiz    
+Ce projet propose un **QCM interactif** permettant d’explorer les **représentations culturelles** (y compris les clichés humoristiques) associés à différentes origines à travers une interface web. L’objectif est de mêler **divertissement**, **sens critique**, et **données statistiques réelles** (INSEE, data.gouv.fr, Eurostat…).
 
-## 🚀 Installation et configuration
-**Cloner le projet** 
-git clone https://github.com/Heidi15/Ca-vient-d-ou-.git
+> 🎯 **But pédagogique** : utiliser l’humour comme point d’entrée pour réfléchir aux stéréotypes et à la diversité culturelle.  
+> 🔐 **Respect des personnes** : aucune moquerie ciblée ni propos discriminant. L’ensemble du contenu est pensé pour **informer sans stigmatiser**.
+
+---
+
+## 🖥️ Technologies utilisées
+
+| Stack       | Outils / Langages         |
+|-------------|---------------------------|
+| Frontend    | HTML, CSS, JavaScript     |
+| Backend     | PHP (version 8+)          |
+| Base de données | MongoDB               |
+| IDE         | Visual Studio Code        |
+
+---
+
+## 📁 Fonctionnalités
+
+- 🔎 **QCM par thème culturel** (Maghrébins, Subsahariens, Latinos, Asie du Sud, etc.)
+- 🎭 **Clichés tournés à l’humour**, avec des éléments de vérité croisés via les bases de données publiques
+- 📊 **Affichage de statistiques officielles** en lien avec chaque thème (ex : population immigrée, langue, pratiques culturelles…)
+- 🔄 **Connexion/déconnexion utilisateur** (avec PHP/MongoDB)
+- 💾 **Sauvegarde des résultats** de quiz (MongoDB)
+- 📈 **tableau de bord** 
+
+---
+
+## 📊 Données publiques utilisées
+
+Les questions sont enrichies ou illustrées par des **données vérifiables** provenant de :
+
+- 📌 [INSEE – Démographie et immigration (2023)](https://www.insee.fr/fr/statistiques/8242329)
+- 📌 [Data.gouv.fr – Statistiques France par origine et nationalité](https://www.data.gouv.fr/fr/datasets/)
+- 📌 [Eurostat – Migration et société multiculturelle](https://ec.europa.eu/eurostat)
+- 📌 [OCDE – Bases sur la migration internationale](https://www.oecd.org/migration/)
+- 📌 [World Bank – Migration and Remittances Data](https://datatopics.worldbank.org/migration/)
+- 📌 [UNESCO – Diversité culturelle & patrimoine](https://ich.unesco.org/)
+
+---
+## 🚀 Lancer le projet en local
+Cloner le projet git clone https://github.com/Heidi15/Ca-vient-d-ou-.git
+
