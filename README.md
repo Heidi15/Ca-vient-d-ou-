@@ -11,12 +11,12 @@ Ce projet propose un **QCM interactif** permettant d’explorer les **représent
 
 ## 🖥️ Technologies utilisées
 
-| Stack       | Outils / Langages         |
+| Stack                | Outils / Langages         |
 
- Frontend           HTML, CSS, JavaScript     
- Backend                              PHP                       
- Base de données                  MongoDB               
- IDE                   Visual Studio Code        
+ Frontend:           HTML, CSS, JavaScript     
+ Backend:                              PHP                       
+ Base de données:                  MongoDB               
+ IDE:                   Visual Studio Code        
 
 ---
 
