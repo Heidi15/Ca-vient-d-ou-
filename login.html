@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Connexion - Ca vient d'ou?</title>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <h1>Ca vient d'ou?</h1>
+  </div>
+   <!-- Barre de navigation avec les liens vers les autres pages -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="login.html">Connection/Inscription</a></li>
+      <li><a href="quizz.html">Jouer</a></li>
+      <li><a href="score.html">Scores</a></li>
+      <li><a href="contact.html">Nous contacter</a></li>
+      <li><a href="chat.html">Chat</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="header-container">
+  <?php include 'header-footer.html'; ?>
+</div>
+
+<main>
+  <!-- SECTION CONNEXION -->
+  <section class="login-section">
+    <h2>Connexion</h2>
+    <form action="login_process.php" method="POST">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Mot de passe" required>
+      <button type="submit">Connexion</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <!-- INFORMATIONS FOOTER -->
+  <div class="information">
+    <p>Testez vos connaissances sur les cultures du monde et découvrez de nouvelles curiosités à chaque quiz !</p>
+    <p><strong>Tel :</strong> 06 05 04 03 02</p>
+    <p><strong>Email :</strong> support@cavientdou.com</p>
+    <div class="social-links">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-google"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-pinterest"></i></a>
+    </div>
+  </div>
+  <p>Tous droits réservés 2025</p>
+</footer>
+
+<div class="footer-container">
+  <?php include 'header-footer.html'; ?>
+</div>
+
+</body>
+</html>
