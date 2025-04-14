@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Accueil - CA vient d'ou?</title>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudeflare.com/ajax/libs/font-awesome/6.4.0/all.min.css">
+    <title>Page contact</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-
-<header>
+    
+    <!-- Menu de navigation principal -->
   <div class="logo">
     <h1>Ca vient d'ou?</h1>
   </div>
-  <!-- Navigation -->
-  <nav>
     <ul>
       <li><a href="index.html">Accueil</a></li>
+      <li><a href="login.html">Connection/Inscription</a></li>
       <li><a href="quizz.html">Quizz</a></li>
       <li><a href="scores.html">Scores</a></li>
-      <li><a href="chat.html">Chat</a></li>
       <li><a href="contact.html">Nous contacter</a></li>
-      <li><a href="login.html">Connection/Inscription</a></li>
+      <li><a href="chat.html">Chat</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="header-container">
-  <?php include 'header-footer.html'; ?>
-</div>
-
-<main> <!-- Contenu principal -->
-  <section class="hero">
-    <h2>Bienvenue dans les coulisses !</h2>
-    <p>Venez challenger les cerveaux les plus agiles !</p>
-    <a href="memory.html" class="button">Jouer !</a>
-  </section>
-
-
-
-  <section class="features">
-    <!-- Section pour les trois blocs de fonctionnalités avec images et texte -->
-    <!-- Remplissez les détails d'après l'image -->
-  </section>
-
-  <section class="stats">
-    <!-- Section pour les statistiques avec les quatre blocs colorés -->
-    <!-- Remplissez les détails d'après l'image -->
-  </section>
-
-  <section class="team">
-    <h3>la créatrice du jeu</h3>
-    <!-- Section avec la photos et mon nom -->
-     <p> Heidi </p>
-     <p> Developper </p>
-      
-   
-  </section>
-</main>
-
-<footer> <!-- Pied de page -->
-  <div class="information">
-    <p><h3> Nous Contactez : </h3></p>
-    <p><strong>Tel :</strong> 06 23 45 69 10</p>
-    <p><strong>Email :</strong> cavientdou@gmail.com</p>
-    <div class="social-links">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-google"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-    </div>
-  </div>
-</footer>
-
-
-
-<div class="footer-container">
-  <?php include 'header-footer.html'; ?>
-</div>
+<main>
+    <section class="contact">
+        <div class="content">
+            <h2>Contactez-nous</h2>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text"></div>
+                        <h2>Addresse</h2>
+                        <p>8 Boulevard du Nesquik</p>Victoria, London<br>250 329</div>
+                    </div>
+                </div>
+            <div class="box">
+                <div class="icon"></div>
+                <div class="text"></div>
+                    <h3>Telephone</h3>
+                    <p>06 05 04 03 02</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"></div>
+                <div class="text"></div>
+                    <h3>Email</h3>
+                    <p>support@cavientdou.com</p>
+                </div>
+            </div>
+        </div>
+    </div class="contactForm">
+        <form>
+            <h2>Envoyer un message</h2>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Nom d'utilisateur</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Ecris ton message...</span>
+            </div>
+            <div class="inputBox">
+                <input type="submit" name="" value="Envoyer">
+            </div>
+        </form>  
+        </div>
+    </section>
 </body>
 </html>
