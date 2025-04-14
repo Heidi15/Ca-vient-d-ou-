@@ -1,0 +1,185 @@
+/* Import de la police depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Réinitialisation et police globale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Corps de la page avec un dégradé clair en fond */
+body {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Titre principal */
+.logo h1 {
+  color: #7d5fff;
+  font-size: 28px;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Barre de navigation */
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: linear-gradient(to right, #fceaff, #e0f7fa);
+  padding: 10px;
+  gap: 20px;
+  border-bottom: 2px solid #e3d0f3;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+  background-color: #ffe0f0;
+  color: #d63384;
+  border-radius: 10px;
+}
+
+/* Section contact globale */
+.contact {
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Titre de la section */
+.contact .content h2 {
+  text-align: center;
+  color: #7d5fff;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* Conteneur de la partie info + formulaire */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+/* Bloc info de contact à gauche */
+.contactInfo {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Chaque boîte info */
+.contactInfo .box {
+  background-color: #f7faff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #7d5fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.contactInfo .box h2,
+.contactInfo .box h3 {
+  color: #76c7dc;
+  margin-bottom: 10px;
+}
+
+/* Formulaire à droite */
+.contactForm {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f7faff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Titre du formulaire */
+.contactForm h2 {
+  color: #7d5fff;
+  margin-bottom: 20px;
+}
+
+/* Chaque champ */
+.inputBox {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* texte */
+.inputBox input[type="text"],
+.inputBox input[type="email"],
+.inputBox textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  font-size: 14px;
+  resize: none;
+}
+
+/* Labels flottants */
+.inputBox span {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  color: #aaa;
+  font-size: 14px;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+/* Effet focus  */
+.inputBox input:focus + span,
+.inputBox input:valid + span,
+.inputBox textarea:focus + span,
+.inputBox textarea:valid + span {
+  top: -10px;
+  left: 10px;
+  font-size: 12px;
+  color: #7d5fff;
+  background-color: #f7faff;
+  padding: 0 5px;
+}
+
+/* Bouton envoyer */
+.inputBox input[type="submit"] {
+  background-color: #a0d8ef;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Effet hover */
+.inputBox input[type="submit"]:hover {
+  background-color: #76c7dc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactInfo, .contactForm {
+    width: 100%;
+  }
+}
