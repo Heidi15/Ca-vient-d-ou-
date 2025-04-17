@@ -4,8 +4,8 @@
 
 Ce projet propose un **QCM interactif** permettant d’explorer les **représentations culturelles** (y compris les clichés humoristiques) associés à différentes origines à travers une interface web. L’objectif est de mêler **divertissement**, **sens critique**, et **données statistiques réelles** (INSEE, data.gouv.fr, Eurostat…).
 
-> 🎯 **But pédagogique** : utiliser l’humour comme point d’entrée pour réfléchir aux stéréotypes et à la diversité culturelle.  
-> 🔐 **Respect des personnes** : aucune moquerie ciblée ni propos discriminant. L’ensemble du contenu est pensé pour **informer sans stigmatiser**.
+> 🎯 **But pédagogique** : utiliser un jeu comme point d’entrée pour réfléchir aux à la diversité culturelle.  
+> 🔐 **Respect des personnes** :L’ensemble du contenu est pensé pour **informer sans stigmatiser**.
 
 ---
 
@@ -24,10 +24,10 @@ Ce projet propose un **QCM interactif** permettant d’explorer les **représent
 
 - 🔎 **QCM par thème culturel** (Maghrébins, Subsahariens, Latinos, Asie du Sud, etc.)
 - 🎭 **Clichés tournés à l’humour**, avec des éléments de vérité croisés via les bases de données publiques
-- 📊 **Affichage de statistiques officielles** en lien avec chaque thème (ex : population immigrée, langue, pratiques culturelles…)
+- 📊 **Affichage de statistiques officielles** en lien avec chaque thème (ex : langue, pratiques culturelles…)
 - 🔄 **Connexion/déconnexion utilisateur** (avec PHP/MongoDB)
 - 💾 **Sauvegarde des résultats** de quiz (MongoDB)
-- 📈 **tableau de bord** 
+- 🆚 **Quiz sur diférents thémes**
 
 ---
 
