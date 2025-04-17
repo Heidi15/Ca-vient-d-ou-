@@ -1,66 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Connexion - Ca vient d'ou?</title>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudeflare.com/ajax/libs/font-awesome/6.4.0/all.min.css">
+    <title>Connection/Inscription</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-
-<header>
-  <div class="logo">
-    <h1>Ca vient d'ou?</h1>
-  </div>
-   <!-- Barre de navigation avec les liens vers les autres pages -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="login.html">Connection/Inscription</a></li>
-      <li><a href="quizz.html">Jouer</a></li>
-      <li><a href="score.html">Scores</a></li>
-      <li><a href="contact.html">Nous contacter</a></li>
-      <li><a href="chat.html">Chat</a></li>
-    </ul>
-  </nav>
-</header>
-
-<div class="header-container">
-  <?php include 'header-footer.html'; ?>
-</div>
-
-<main>
-  <!-- SECTION CONNEXION -->
-  <section class="login-section">
-    <h2>Connexion</h2>
-    <form action="login_process.php" method="POST">
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="password" placeholder="Mot de passe" required>
-      <button type="submit">Connexion</button>
-    </form>
-  </section>
-</main>
-
-<footer>
-  <!-- INFORMATIONS FOOTER -->
-  <div class="information">
-    <p>Testez vos connaissances sur les cultures du monde et découvrez de nouvelles curiosités à chaque quiz !</p>
-    <p><strong>Tel :</strong> 06 05 04 03 02</p>
-    <p><strong>Email :</strong> support@cavientdou.com</p>
-    <div class="social-links">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-google"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="#"><i class="fa fa-pinterest"></i></a>
+    <nav> <!-- Menu de navigation -->
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="login.html">Connection/Inscription</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="chat.html">Chat</a></li>
+        </ul>
+        <a href="" class="start-button"Jouer</a>
+      </nav>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box">
+                <div class="card-front">
+                        <h2>Connection</h2>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+                            <button class="submit-btn" type="submit">Se connecter</button>
+                            <input type="checkbox" name="" id=""><span>se souvenir de moi</span>
+                        </form>
+                        <button type="button" class="btn" onclick="openRegister()">je n'ai pas de compte</button>
+                        <a href="a">Mot de passe oublié</a>
+                        </div>
+                        <div class="card-back">
+                            <h2>Enregistrer</h2>
+                    <form action="">
+                        <input type="text" name="text" id="text" placeholder="Nom d'utilisateur" required>
+                        <input type="email" name="email" id="password" placeholder="Email" required>
+                        <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+                        <button class="submit-btn" type="submit">S'inscrire</button>
+                        <input type="checkbox" name="checkbox" id="checkbox"><span>J'accepte les termes et conditions</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">J'ai déja un compte</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <p>Tous droits réservés 2025</p>
-</footer>
-
-<div class="footer-container">
-  <?php include 'header-footer.html'; ?>
-</div>
-
 </body>
 </html>
+
+
+
+                 
