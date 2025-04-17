@@ -4,8 +4,8 @@ const questions = [
 
         answer: [
             {text: "Pierogi", correct: false},
-            {text: "Goulash", correct: true},
-            {text: "Sarmale", correct: false},
+            {text: "Goulash", correct: false},
+            {text: "Sarmale", correct: true},
             {text: "Borscht", correct: false},
         ]
     },
@@ -22,17 +22,17 @@ const questions = [
         question: "Quel est l’instrument de musique souvent associé à la musique traditionnelle tzigane ?",
         answer: [
             {text: "Guitare électrique", correct: false},
-            {text: "Violon", correct: false},
+            {text: "Violon", correct: true},
             {text: "Tambourin", correct: false},
-            {text: "Cornemuse", correct: true},
+            {text: "Cornemuse", correct: false},
         ]
     },
     {
         question: "Quel est le moyen de transport le plus utilisé dans les grandes villes d'Europe de l'Est ?",
         answer: [
             {text: "Voiture", correct: false},
-            {text: "Tramway", correct: false},
-            {text: "Métro", correct: true},
+            {text: "Tramway", correct: true},
+            {text: "Métro", correct: false},
             {text: "Charrette", correct: false},
         ]
     },
@@ -51,7 +51,7 @@ const questions = [
             {text: "Strudel", correct: false},
             {text: "Pască", correct: true},
             {text: "Pască", correct: false},
-            {text: "Beigli", correct: false},
+            {text: "Beigli", correct: true},
         ]
     },
     {
@@ -77,8 +77,8 @@ const questions = [
         answer: [
             {text: "Slava", correct: false},
             {text: "Martisor", correct: false},
-            {text: "Maslenitsa", correct: false},
-            {text: "Dragobete", correct: true},
+            {text: "Maslenitsa", correct: true},
+            {text: "Dragobete", correct: false},
         ]
     },
     {
@@ -86,17 +86,17 @@ const questions = [
         answer: [   
             {text: "Chasser les mauvais esprits", correct: false},
             {text: "Manger du poisson", correct: false},
-            {text: "Brûler un pantin en bois", correct: true},
-            {text: "Chercher l’amour en jetant du sel", correct: false},
+            {text: "Brûler un pantin en bois", correct: false},
+            {text: "Chercher l’amour en jetant du sel", correct: true},
         ]
     },
     {
         question: "Quelle est la ville d’Europe de l’Est célèbre pour son château gothique associé à Dracula ??",
         answer: [
-            {text: "Prague", correct: true},
+            {text: "Prague", correct: false},
             {text: "Cracovie", correct: false},
             {text: "Sofia", correct: false},
-            {text: "Bran", correct: false},
+            {text: "Bran", correct: true},
         ]
     },
     {
@@ -113,8 +113,8 @@ const questions = [
         answer: [
             {text: "Tchèque", correct: false},
             {text: "Polonais", correct: false},
-            {text: "Russe", correct: false},
-            {text: "Hongrois", correct: true},
+            {text: "Russe", correct: true},
+            {text: "Hongrois", correct: false},
         ]
     },
     {
@@ -130,8 +130,8 @@ const questions = [
         question: "Quel est le style musical moderne aux influences balkaniques, fanfare et accordéon ?",
         answer: [
             {text: "Klezmer", correct: false},
-            {text: "Balkan Beat", correct: true},
-            {text: "Turbo-folk", correct: false},
+            {text: "Balkan Beat", correct: false},
+            {text: "Turbo-folk", correct: true},
             {text: "Electro-tziganesque", correct: false},
         ]
     }
